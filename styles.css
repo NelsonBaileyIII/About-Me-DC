@@ -1,0 +1,36 @@
+.right {
+    margin-left:75%;
+}
+p.a {
+  white-space: nowrap;
+}
+
+p.b {
+  white-space: normal;
+}
+
+p.c {
+  white-space: pre;
+}
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col1 {
+    float:left; 
+    width:300px;
+    background-color:#ad0c0c;
+    
+}
+
+.col2 {
+    float:right; 
+    width:300px; 
+    margin-left:20px;
+    Background-color:#ad0c0c;
+}
